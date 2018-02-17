@@ -36,6 +36,7 @@ http://www.ndbc.noaa.gov/measdes.shtml
 But the key fields we’d expect you’d find most useful as model features are:
  - WVHT : The average of the largest third of waves over an observation period
  - DPD : The wave period (inverse frequency) at which there's the most energy 
+ - MWD : Mean direction of waves
 
 Exactly what this data represents and how it’s derived is interesting and 
 relevant to our work but we don’t expect you to need to build that 
@@ -68,7 +69,7 @@ with this data.
 
 
 ## The Project
-We’re interested in looking at **WVHT** and **DPD** (or any other fields) in the 
+We’re interested in looking at **WVHT**, **DPD** and **MWD** (or any other fields) in the 
 offshore data and seeing if we can use this to predict for **nshor**, 
 in the surf height data.
 
